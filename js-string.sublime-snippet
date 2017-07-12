@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+`string text \${${1:this}} string text`
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js-string</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

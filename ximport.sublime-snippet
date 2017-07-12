@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+import ${1:name} from ${2:module}
+import Backbone from 'backbone';
+import React from 'react';
+import Redux from 'react-redux'
+import \$ from 'jquery';
+import _ from 'lodash';
+import parse from 'common/utils/parse';
+import flatten from 'common/utils/flattenObject';
+import canSetStorage from 'common/utils/canSetStorage';
+import cookieCheck from 'common/utils/cookieCheck';
+let Promise = require('es6-promise').Promise;
+import Env from 'common/config/config';
+import Cookie from 'js-cookie';
+import {connect} from 'react-redux'
+import Actions from '../actions'
+import Store from '../store'
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ximport</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
